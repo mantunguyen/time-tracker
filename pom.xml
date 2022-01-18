@@ -48,7 +48,13 @@
                            <version>3.10.0</version>
                      </plugin>
                      
-                     
+                                     <plugin>
+
+                         <groupId>io.jenkins.plugins</groupId>
+    <artifactId>warnings-ng</artifactId>
+    <version>9.11.0</version>
+                                          </plugin>
+
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>findbugs-maven-plugin</artifactId>
